@@ -1,19 +1,48 @@
 {
   "name": "@virtuoworks/electron-sahara-template-vanilla",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "Electron Sahara vanilla project template",
+  "main": "./app/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ./app",
+    "test": "mocha ./test/test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VirtuoWorks/electron-sahara-template-vanilla.git"
   },
+  "keywords": [
+    "electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo",
+    "electron",
+    "boilerplate",
+    "node",
+    "javascript",
+    "sahara"
+  ],
   "author": "Sami Radi <sami.radi@virtuoworks.com> (http://www.virtuoworks.com)",
+  "contributors": [
+    {
+      "name": "Virtuoworks",
+      "url": "https://www.virtuoworks.com/"
+    },
+    {
+      "name": "Sami Radi",
+      "email": "sami.radi@virtuoworks.com",
+      "url": "https://github.com/Sami-Radi"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/VirtuoWorks/electron-sahara-template-vanilla/issues"
   },
-  "homepage": "https://github.com/VirtuoWorks/electron-sahara-template-vanilla#readme"
+  "homepage": "https://github.com/VirtuoWorks/electron-sahara-template-vanilla#readme",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-packager": "^8.5.2",
+    "electron-prebuilt": "^1.4.13"
+  }
 }
