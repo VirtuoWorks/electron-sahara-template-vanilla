@@ -43,7 +43,6 @@
   "devDependencies": {
     "electron": "~1.6.2",
     "electron-packager": "^8.5.2",
-    "electron-prebuilt": "^1.4.13",
     "eslint": "^3.19.0",
     "eslint-config-google": "^0.7.1",
     "coveralls": "^2.11.16",
