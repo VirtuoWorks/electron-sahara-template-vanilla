@@ -1,6 +1,6 @@
 {
   "name": "@virtuoworks/electron-sahara-template-vanilla",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Electron Sahara vanilla project template",
   "main": "./app/app.js",
   "scripts": {
