@@ -1,6 +1,6 @@
 {
-  "name": "electron-professional-grade-starter-kit",
-  "description": "This project aims to create an electron professional grade starter kit inspired from the folder structure and tools that can be found when using tools like ionic for mobile app development. It relies on npm and bower for dependencies management and gulp for sass compilation.",
+  "name": "@virtuoworks/electron-sahara-template-vanilla",
+  "description": "Electron Sahara vanilla project template.",
   "main": "./app/www/js/main.js",
   "authors": [
     "Sami Radi <sami.radi@virtuoworks.com> (http://www.virtuoworks.com)"
@@ -15,7 +15,7 @@
     "Kit"
   ],
   "private": true,
-  "homepage": "https://github.com/VirtuoWorks/electron-professional-grade-starter-kit",
+  "homepage": "https://github.com/VirtuoWorks/electron-sahara-template-vanilla#readme",
   "ignore": [
     "**/.*",
     "node_modules",

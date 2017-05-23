@@ -1,3 +1,7 @@
 div, h1{
   text-align:center;
 }
+
+div#data {
+  color: #4d83ba;
+}
