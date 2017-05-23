@@ -1,6 +1,7 @@
+const url = require('url');
 const path = require('path');
-const {app, ipcMain, BrowserWindow, Tray, nativeImage} = require('electron');
 
+const {app, ipcMain, BrowserWindow, Tray, nativeImage} = require('electron');
 
 var createWindow = (function () {
 
@@ -11,13 +12,23 @@ var createWindow = (function () {
     if (!browserWindow) {
       // Creates the tray icon.
       let tray = new Tray(icon);
+
       // Creates the browser window. 
       let browserWindow = new BrowserWindow({
-        icon: icon
+        icon: icon,
+        width: 800,
+        height: 600,
+        center: true
       });
 
       // and load the index.html of the app.
-      browserWindow.loadURL(`file://${__dirname}/www/index.html`)
+      // browserWindow.loadURL(`file://${__dirname}/www/index.html`)
+
+      browserWindow.loadURL(url.format({
+        pathname: path.join(__dirname, 'www/index.html'),
+        protocol: 'file:',
+        slashes: true
+      }));
 
       // Open the DevTools.
       // browserWindow.webContents.openDevTools();
@@ -35,8 +46,8 @@ var createWindow = (function () {
       });
     };
   }
-})();
 
+})();
 
 app.on('ready', () => {
   createWindow();
