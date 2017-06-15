@@ -16,6 +16,6 @@ Template for **[Electron Sahara](https://github.com/VirtuoWorks/electron-sahara)
 [downloads-image]: https://img.shields.io/npm/dm/@virtuoworks/electron-sahara-template-vanilla.svg
 [downloads-url]: https://www.npmjs.com/package/@virtuoworks/electron-sahara-template-vanilla
 [travis-image]: https://api.travis-ci.org/VirtuoWorks/electron-sahara-template-vanilla.svg?branch=master
-[travis-url]: https://travis-ci.org/VirtuoWorks/electron-sahara-template-vanilla.svg
+[travis-url]: https://travis-ci.org/VirtuoWorks/electron-sahara-template-vanilla
 [dependencyci-image]: https://dependencyci.com/github/VirtuoWorks/electron-sahara-template-vanilla/badge
 [dependencyci-url]: https://dependencyci.com/github/VirtuoWorks/electron-sahara-template-vanilla
