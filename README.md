@@ -7,6 +7,19 @@
 
 Template for **[Electron Sahara](https://github.com/VirtuoWorks/electron-sahara)**.
 
+## Instructions
+
+```bash
+# install dependencies
+npm install
+
+# start gulp
+npm run watch
+
+# starts electron app
+npm start
+```
+
 ## License
 
 [MIT](LICENSE)
